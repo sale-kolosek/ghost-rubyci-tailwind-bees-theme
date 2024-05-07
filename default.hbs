@@ -6,8 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="{{asset "built/index.css"}}" />
     {{!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.18.2/tocbot.css"> --}}
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="{{asset "js/toasts.js"}}" defer></script>
     <script src="{{asset "built/index.js"}}" defer></script>
+    <script src="https://cdn.tailwindcss.com"></script>
 
     <title>{{meta_title}}</title>
 
@@ -59,7 +61,7 @@
             {{> navbar }}
         </header>
 
-        <main class="gh-canvas flex-auto">
+        <main class="gh-canvas flex-auto dark:bg-gray-900">
             {{{body}}}
             {{!-- All content gets inserted here, index.hbs, post.hbs, etc --}}
         </main>
