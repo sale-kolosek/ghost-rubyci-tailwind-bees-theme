@@ -61,10 +61,15 @@
             {{> navbar }}
         </header>
 
-        <main class="gh-canvas flex-auto dark:bg-gray-900">
+        {{#is "home"}}
+          <main class="dark:bg-gray-900">
             {{{body}}}
-            {{!-- All content gets inserted here, index.hbs, post.hbs, etc --}}
-        </main>
+          </main>
+        {{else}}
+          <main class="gh-canvas flex-auto dark:bg-gray-900">
+            {{{body}}}
+          </main>
+        {{/is}}
 
         <div>
             {{^is "post" }}
