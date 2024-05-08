@@ -1,6 +1,9 @@
-let theme = 'light';
+let theme = 'dark';
 
 function init(){
+    // Force dark theme
+    localStorage.setItem('theme', 'dark');
+
     let storedTheme = localStorage.getItem('theme');
     if(storedTheme) theme = storedTheme;
     document.body.classList.add(theme);
