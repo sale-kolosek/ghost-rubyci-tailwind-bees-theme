@@ -190,3 +190,11 @@ body.dark {
     @apply !bg-[#011627] dark:!bg-[#272822];
     border-radius: 8px;
 }
+
+.gh-announcement-bar {
+  background-color: #111827 !important;
+}
+
+.gh-announcement-bar-content {
+  color: white !important;
+}
