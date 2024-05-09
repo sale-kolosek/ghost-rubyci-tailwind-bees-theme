@@ -84,33 +84,6 @@
             }
         },
         "custom": {
-            "dark_mode_logo": {
-                "type": "image"
-            },
-            "facebook": {
-                "type": "text",
-                "default": ""
-            },
-            "twitter": {
-                "type": "text",
-                "default": ""
-            },
-            "instagram": {
-                "type": "text",
-                "default": ""
-            },
-            "github": {
-                "type": "text",
-                "default": ""
-            },
-            "gitlab": {
-                "type": "text",
-                "default": ""
-            },
-            "linkedin": {
-                "type": "text",
-                "default": ""
-            },
             "custom_page_image_width": {
                 "type": "select",
                 "options": ["Full", "Wide", "Compact"],
