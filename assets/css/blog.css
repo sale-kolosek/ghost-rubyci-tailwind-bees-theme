@@ -1,5 +1,6 @@
 @import "tailwindcss/base";
 @import "tailwindcss/utilities";
+@import "tailwindcss/components";
 /*
 
 This is a development CSS file that is compiled to a minified
@@ -28,6 +29,7 @@ production stylesheet in assets/built/screen.css using: npm run dev
 @import "ghost/comments.css"; */
 
 /* Custom imports */
+@import "custom-typography.css";
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 
 
