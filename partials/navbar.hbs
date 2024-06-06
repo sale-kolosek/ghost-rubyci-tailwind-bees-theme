@@ -91,9 +91,9 @@
         </div>
       </div>
 
-      <a href="/#feature-everything-section" class="text-sm font-semibold leading-6 text-white">Features</a>
-      <a href="/pricing" class="text-sm font-semibold leading-6 text-white">Pricing</a>
-      <a href="/about-us" class="text-sm font-semibold leading-6 text-white">About us</a>
+      {{#foreach @site.navigation}}
+        <a href="{{this.url}}" class="text-sm font-semibold leading-6 text-white">{{label}}</a>
+      {{/foreach}}
     </div>
     <div class="hidden lg:flex lg:flex-1 lg:justify-end">
       <a href="https://app.ruby.ci/" class="text-sm font-semibold leading-6 text-white">Log in <span aria-hidden="true">&rarr;</span></a>
